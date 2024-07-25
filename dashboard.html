@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <div class="small top-banner">**"OTP WHATSAPP PAR MILEGA LOGIN"** <br>GOOD NEWS ALL PLAYERS <br>COMMISSION CHARGE 3% REFER LEVEL 2% </div>
+    <nav class="navbar navbar-light bg-light border-bottom py-1">
+        <div class="container-fluid col-md-8 col-lg-5 mx-auto main-fluid">
+        <div class="d-flex align-items-center gap-2">
+            <button class="btn btn-sm fs-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+            <i class="bi bi-list"></i>
+            </button>
+            <a class="navbar-brand" href="index.html">
+            <img src="./assets/images/logo.jpg" alt="Brand Logo" height="40" class="d-inline-block align-text-top">
+            </a>
+        </div>
+        <div class="d-flex align-items-center gap-2">
+            <a class="btn btn-sm border d-flex align-items-center gap-1" href="wallet.html">
+            <img src="./assets/images/money.png" alt="Wallet Icon" height="17px">₹ 10 </a>
+            <a class="btn btn-sm border d-flex align-items-center gap-1" href="withdraws.html">
+            <img src="./assets/images/prize.png" alt="Withdraw Icon" height="17px">₹ 0 </a>
+        </div>
+    </nav>
+    <div class="offcanvas offcanvas-bottom h-auto" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel" style="visibility: visible;" aria-modal="true" role="dialog">
+        <div class="offcanvas-header bg-dark text-white">
+        <h5 class="offcanvas-title" id="offcanvasBottomLabel">How To Play Game &amp; Earn ?</h5>
+        <button type="button" class="btn-close close btn-white bg-white text-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+        <div class="video-container col-12 col-md-8 d-block">
+            <iframe style="width:100%" id="iframe-instruction" src="https://www.youtube.com/" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen height="461.7478125"></iframe>
+        </div>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" aria-hidden="true">
+        <div class="offcanvas-header bg-white text-dark">
+        <h3 class="offcanvas-title" id="offcanvasExampleLabel">
+            <img src="./assets/images/logo.jpg" alt="TeraLudo Logo" height="40" class="d-inline-block align-text-top">TeraLudo
+        </h3>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+        <a href="profile.html" class="d-flex gap-2 border p-2 rounded profile-user text-decoration-none text-dark">
+            <img src="./assets/images/avatar11.png" alt="Profile Avatar" height="45" width="45" class="rounded-circle">
+            <div>
+            <div>lokesh sahu</div>
+            <div class="small">@lokeshsahu1</div>
+            </div>
+        </a>
+        <a href="dashboard.html" class="my-3 btn btn-outline-dark w-100 text-start d-flex justify-content-between showloadin"><span><i class="bi bi-house"></i> Home </span><i class="bi bi-chevron-right"></i></a>
+        <a href="wallet.html" class="my-3 btn btn-outline-dark w-100 text-start d-flex justify-content-between showloading"><span><i class="bi bi-wallet2"></i> Wallet </span><i class="bi bi-chevron-right"></i></a>
+        <a href="matchhistory.html" class="my-3 btn btn-outline-dark w-100 text-start d-flex justify-content-between showloading"><span><i class="bi bi-clock-history"></i> Match History </span><i class="bi bi-chevron-right"></i></a>
+        <a href="history.html" class="my-3 btn btn-outline-dark w-100 text-start d-flex justify-content-between showloading"><span><i class="bi bi-clock-history"></i> History </span><i class="bi bi-chevron-right"></i></a>
+        <a href="withdraws.html" class="my-3 btn btn-outline-dark w-100 text-start d-flex justify-content-between showloading"><span><i class="bi bi-bank"></i> Withdraws </span><i class="bi bi-chevron-right"></i></a>
+        <a href="profile.html" class="my-3 btn btn-outline-dark w-100 text-start d-flex justify-content-between showloading"><span><i class="bi bi-person-circle"></i> Profile </span><i class="bi bi-chevron-right"></i></a>
+        <a href="referral.html" class="my-3 btn btn-outline-dark w-100 text-start d-flex justify-content-between showloading"><span><i class="bi bi-gift"></i> Refer &amp; Earn </span><i class="bi bi-chevron-right"></i></a>
+        <a href="#" class="btn w-100 d-flex justify-content-between text-white text-start mb-3" target="_blank" style="background-color: #1EBEA5;">
+            <span>
+            <i class="bi bi-whatsapp"></i> Contact On Whatsapp </span>
+            <i class="bi bi-chevron-right"></i>
+        </a>
+        <a href="#" class="btn w-100 d-flex justify-content-between text-white instagram text-start mb-3" target="_blank">
+            <span>
+            <i class="bi bi-instagram"></i> Connect On Instagram </span>
+            <i class="bi bi-chevron-right"></i>
+        </a>
+        <div class="text-center text-secondary" style="opacity: 0.8;">
+            <a href="terms.html" class="text-decoration-none small">Legal Terms</a>
+        </div>
+        </div>
+    </div>
+    <div class="navbar fixed-bottom w-100 d-md-none bottombar shadow" style="background-color: #F1F1F1; z-index: 1;">
+        <div class="container-fluid d-flex justify-content-around align-items-center">
+        <a href="dashboard.html" class="text-dark text-decoration-none d-flex flex-column align-items-center">
+            <div class="fs-1">
+            <i class="bi bi-house"></i>
+            </div>
+            <!-- <small>Home</small> -->
+        </a>
+        <a href="profile.html" class="text-dark text-decoration-none d-flex flex-column align-items-center">
+            <div class="fs-1">
+            <i class="bi bi-person-circle"></i>
+            </div>
+            <!-- <small>Profile</small> -->
+        </a>
+        <a href="wallet.html" class="text-dark text-decoration-none d-flex flex-column align-items-center">
+            <div class="fs-1">
+            <i class="bi bi-wallet2"></i>
+            </div>
+            <!-- <small>Wallet</small> -->
+        </a>
+        <a href="referral.html" class="text-dark text-decoration-none d-flex flex-column align-items-center">
+            <div class="fs-1">
+            <i class="bi bi-share"></i>
+            </div>
+            <!-- <small>Refer & Earn</small> -->
+        </a>
+        <a href="history.html" class="text-dark text-decoration-none d-flex flex-column align-items-center">
+            <div class="fs-1">
+            <i class="bi bi-clock-history"></i>
+            </div>
+            <!-- <small>History</small> -->
+        </a>
+        </div>
+    </div>
+    <div class="col-md-8 col-lg-5 mx-auto position-relative">
+        <marquee class="alert-dark fw-bold py-2">
+        <i class="bi bi-megaphone"></i> COMMISSION CHARGE 3% REFER LEVEL 2%
+        </marquee>
+        <div class="py-3 px-3 bg-white shadow">
+        <div class="d-flex justify-content-between">
+            <span class="fs-4">Games</span>
+            <div>
+            <a class="btn btn-sm btn-outline-dark" href="#" data-bs-toggle="modal" data-bs-target="#rules" aria-controls="rules">
+                <i class="bi bi-info-circle"></i> Rules </a>
+            <a class="btn btn-sm btn-outline-dark" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
+                <i class="bi bi-info-circle"></i> Instructions </a>
+            </div>
+        </div>
+        <div class="d-flex flex-wrap mt-2">
+            <div class="col-6 p-2">
+            <a href="classicMatch.html" class="text-decoration-none text-dark">
+                <div class="text-center h-100">
+                <p class="p-0 m-0 text-danger animate__animated animate__flash animate__infinite" style="font-size:10px; opacity:0.7;">
+                    <i class="bi bi-circle-fill"></i> Live
+                </p>
+                <img src="./assets/images/ludo.jpg" class="w-100" alt="Classic Match">
+                <p class="m-0 p-0 animate__animated animate__tada animate__infinite d-inline-block px-2 py-1">
+                    <i class="bi bi-dice-6"></i> CLASSIC
+                </p>
+                </div>
+            </a>
+            </div>
+            <div class="col-6 p-2">
+            <a href="ladderMatch.html" class="text-decoration-none text-dark">
+                <div class="text-center h-100">
+                <p class="p-0 m-0 text-danger animate__animated animate__flash animate__infinite" style="font-size:10px; opacity:0.7;">
+                    <i class="bi bi-circle-fill"></i> Live
+                </p>
+                <img src="./assets/images/snake.png" class="w-100" alt="Snake and Ladders">
+                <p class="m-0 p-0 animate__animated animate__tada animate__infinite d-inline-block px-2 py-1">
+                    <i class="bi bi-dice-6"></i> SNAKE AND LADDERS
+                </p>
+                </div>
+            </a>
+            </div>
+        </div>
+        <div class="d-flex mt-3">
+            <div>
+            <img src="./assets/images/logo.jpg" alt="TeraLudo Logo" width="100">
+            </div>
+            <div class="small px-2">
+            <strong>TeraLudo</strong>
+            <br> TeraLudo खेल कर या दोस्तों को शेयर कर के पैसा जीतो और तुरंत अपने Bank या UPI में ट्रांसफर कर सकते है। दोस्तों को शेयर करने पर उनका आपको लाइफ टाइम 4% कमीशन (रेफेरल 4 लेवल तक) दिया जाएगा।
+            </div>
+        </div>
+        <div class="d-flex flex-wrap justify-content-center gap-2 text-secondary" style="opacity:0.8">
+            <!-- Additional content can be placed here -->
+        </div>
+        </div>
+        <div id="installInstructions" class="animate__animated animate__pulse animate__infinite">
+        <button class="feedback" id="download">
+            <img src="./assets/images/playstore.png" height="50" alt="Download on Playstore">
+        </button>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="rules" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Rules</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <p>
+                <font color=" BLACK">
+                <b>NEW UPDATE : <br>** <font color=" red">
+                    <br> Fresh आईडी गेम के मामले में केवल पासा के उपयोग के प्रमाण पर रद्द कर दिया जाएगा गोटी के खुले होने के बावजूद नहीं ? गेम का रिकॉड होना जरूरी है अगर कोई अपनी आईडी का नाम नो फ्रेश कर रका तो नो फ्रेश आईडी ही टेक करे जिनका इंटरेस्ट हो वही टेक करे टेबल को ( इसका अंतिम रिजल्ट एडमिन देगा ) <br>
+                    <font color=" green">
+                        <b>
+                        <br>1. अगर आप जीत गई राशि से गेम लगा कर कैंसिल करें फिर वो राशि आपके डिपॉजिट वॉलेट में रहेगी! <br>
+                        <font color=" pink">
+                            <b> 2.खेल 2 खिलाड़ियों के बीच आयोजित किया जाएगा। <font color=" blue">
+                                <b>
+                                <br>3.फिनिश टोकन पर कोई बोनस मूव नहीं क्योंकि "TERA LUDO लूडो" में कोई फिनिशिंग ट्रैक नहीं है। <font color=" sky">
+                                    <b>
+                                    <br>4.गेम में प्रत्येक मोड़ के लिए, उपयोगकर्ता के पास मूव खेलने के लिए 30 सेकंड हैं, अन्यथा आपका टोकन स्वचालित रूप से स्थानांतरित हो जाएगा। <font color=" RED">
+                                        <b>
+                                        <br>5.गेम से डिस्कनेक्ट/छोड़ने पर, आपकी बारी स्वचालित रूप से अधिकतम 5 बार खेली जाएगी। छठे (छठे) मिस/टाइमआउट मूव पर, खिलाड़ी को हारा हुआ माना जाएगा। <font color=" GREEN">
+                                            <b>
+                                            <br>6.यदि आपके सभी टोकन घर पर हैं और आपका प्रतिद्वंद्वी डिस्कनेक्ट हो जाता है, तो गेम को "रद्द" माना जाएगा। <font color=" red">
+                                                <b>
+                                                <br>7.यदि आपका प्रतिद्वंद्वी खेल शुरू या बीच में खेल छोड़ देता है/डिसकनेक्ट हो जाता है, <br>A.1 गोटी ओपन होने पर 30% दिया जाएगा <br>B. 2 गोटी ओपन होन 50% विनिंग दी जाएगी <br>C. 3 4 गोटी ओपन होने पर 100% जीत मिलेगी <font color=" black">
+                                                    <b>
+                                                    <br>8.एक खिलाड़ी को प्रत्येक गेम को रिकॉर्ड करना होगा, और यदि कोई खिलाड़ी गेम में हैकिंग या धोखाधड़ी कर रहा है, तो कृपया वीडियो प्रमाण के साथ समर्थन से संपर्क करें। <font color="red">
+                                                        <b>
+                                                        <br>9.यदि आपके पास खिलाड़ी की धोखाधड़ी और खेल में त्रुटि के खिलाफ कोई सबूत नहीं है, तो आपको एक विशेष लड़ाई के लिए हारा हुआ माना जाएगा। <font color=" brown">
+                                                            <b>
+                                                            <br>10.कैंसिल' रिजल्ट डालने के बाद गेम प्ले करके जीत जाते है तो उसमे हमारी कोई ज़िम्मेदारी नहीं होगी अतः गेम कैंसिल करने के बाद स्टार्ट न करे अन्यथा वो कैंसिल ही माना जायेगा(आखिरी फैसला एडमिन करेगा) <font color=" red">
+                                                                <b>
+                                                                <br>11.OTP किसी को ना दे ॥ हमारी टीम ने किसी से भी काम के लिए ओटीपी नहीं डाला है। यदि आप किसी को OTP देते हैं तो उसका कर्तव्य आप स्वयं होंगे </b>
+                                                            </font>
+                                                            </b>
+                                                        </font>
+                                                        </b>
+                                                    </font>
+                                                    </b>
+                                                </font>
+                                                </b>
+                                            </font>
+                                            </b>
+                                        </font>
+                                        </b>
+                                    </font>
+                                    </b>
+                                </font>
+                                </b>
+                            </font>
+                            </b>
+                        </font>
+                        </b>
+                    </font>
+                    </font>
+                </b>
+                </font>
+            </p>
+            </div>
+        </div>
+        </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

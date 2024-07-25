@@ -1,0 +1,216 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    background-attachment: fixed;
+    /* font-family: 'Questrial', sans-serif; */
+    font-family: "Roboto", sans-serif;
+}
+
+.instagram {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+
+.btn-success {
+    background-color: #28B463;
+    border: none;
+}
+
+#installInstructions {
+    display: none
+}
+
+@media (display-mode: browser) {
+    #installInstructions {
+        display: block
+    }
+}
+
+#installInstructions {
+    position: fixed;
+    bottom: 60px;
+    left: 10px;
+    width: 50;
+}
+
+#download {
+    background-color: transparent;
+    border: 0px;
+}
+
+.bgy {
+    /* background: linear-gradient(0deg, #6a00ffa6, #a76cf9b5); */
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+}
+
+.fs-11{
+    font-size: 11px;
+}
+.fs-12{
+    font-size: 12px;
+}
+.transaction-item{
+    padding: 15px 0px;
+}
+.transaction-item:not(:last-child){
+    border-bottom: 1px solid #dee2e6!important;
+}
+.form-control, button, .btn , .form-select{
+    box-shadow: none !important;
+}
+.form-control:focus, .form-select:focus{
+    border-color: #d9af66;
+}
+.btn {
+    white-space: nowrap;
+}
+.btn-dark, .btn-outline-dark:hover{
+    background-color: #cda45e;
+    border-color: #cda45e;
+}
+.btn-dark:hover{
+    background-color: #d9af66;
+    border-color: #d9af66;
+}
+.btn-warning{
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+    padding: 5px 15px;
+}
+.input-group-text{
+    background-color: #d9af66;
+    border-color: #d9af66;
+}
+.input-group-text i {
+    color: #fff;
+}
+.alert-dark {
+    color: #fff;
+    background-color: #d9af66;
+    border-color: #d9af66;
+}
+.text-primary{
+    color: #d9af66 !important;
+}
+a{
+    color: #d9af66;
+}
+a:hover{
+    color: #cda45e;
+}
+.border-primary{
+    border-color:  #d9af66 !important;
+}
+.offcanvas , .modal-content{
+    border: none;
+}
+.offcanvas-header {
+    border-bottom: 1px solid #504f4f;
+}
+.bg-danger {
+    background-color: #ff162d !important;
+}
+.btn-danger{
+    background-color: #ff162d;
+    border-color: #ff162d;
+}
+.btn-danger:hover{
+    background-color: #e60a20;
+    border-color: #e60a20;
+}
+font{
+    font-size: 14px;
+}
+.top-banner{
+    color: #ff162d;
+    padding: 15px 10px;
+    background-color: #ffc8c8;
+    text-align: center;
+    z-index: 5;
+    position: sticky;
+    top: 0;
+}
+nav.navbar{
+    position: sticky;
+    top: 93px;
+    z-index: 5;
+}
+.card{
+    border: none;
+    box-shadow: 0px 0px 20px 0px #ebebeb;
+}
+.card-header {
+    background-color: #201e1e;
+    border-bottom: 1px solid #201e1e;
+    color: #fff;
+}
+.card-body{
+    border: 1px solid #f5f5f5;
+    border-top-width: 0px;
+}
+.opm .card-body{
+    border-top-width: 1px;
+}
+
+.inputBtn {
+    cursor: pointer;
+}
+.matchuser {
+    box-shadow: 0px 0px 10px 0px #d9af66 !important; 
+}
+
+.matchuser2 {
+    box-shadow: 0px 0px 10px 0px #dc3545 !important; 
+}
+.cardGroup{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.btn-scode{
+    flex-wrap: wrap;
+}
+.btn-scode button{
+    flex:  1 1 auto;
+}
+.btn-outline-dark.showloading{
+    border: none;
+}
+.profile-user{
+    background-color: #e8e8e8;
+    background: #e8e8e8;
+    border-radius: 6px !important;
+    padding: 10px !important;
+    box-shadow: 0px 0px 20px 0px #ebebeb;
+}
+.profile-user>div .small{
+    font-size: 12px;
+}
+@media screen and (max-width:767.98px){
+    body{
+        padding-bottom: 65px;
+    }
+    .bottombar>div .fs-1{
+        font-size: 22px !important;
+    }
+    .footerBottom {
+        bottom: 55px !important;
+    }
+}
+@media screen and (max-width:500px){
+    .cardGroup{
+        grid-template-columns: 1fr;
+    }
+}

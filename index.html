@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tera Ludo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <div class="small top-banner">**"OTP WHATSAPP PAR MILEGA LOGIN"**<br>GOOD NEWS ALL PLAYERS<br>COMMISSION CHARGE 3% REFER LEVEL 2%</div>
+    <nav class="navbar navbar-light bg-light border-bottom py-1">
+        <div class="container-fluid col-md-8 col-lg-5 mx-auto main-fluid d-flex justify-content-between">
+            <div class="d-flex align-items-center gap-2">
+                <button class="btn btn-sm fs-4" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <i class="bi bi-list"></i>
+                </button>
+                <a class="navbar-brand showloading" href="dashboard.html">
+                    <img src="./assets/images/logo.jpg" alt="Logo" height="40" class="d-inline-block align-text-top">
+                </a>
+            </div>
+            <button class="btn btn-sm btn-outline-dark" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
+                <i class="bi bi-info-circle"></i> Instructions
+            </button>
+        </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-bottom h-auto" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+        <div class="offcanvas-header bg-dark text-white">
+            <h5 class="offcanvas-title" id="offcanvasBottomLabel">How To Play Game &amp; Earn ?</h5>
+            <button type="button" class="btn-close close btn-white bg-white text-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="video-container col-12 col-md-8 d-block mx-auto">
+                <iframe style="width:100%" id="iframe-instruction" src="https://www.youtube.com/" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen height="461.7478125"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-start" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header bg-white text-dark">
+            <h3 class="offcanvas-title" id="offcanvasExampleLabel">
+                <img src="./assets/images/logo.jpg" alt="TeraLudo Logo" height="40" class="d-inline-block align-text-top"> TeraLudo
+            </h3>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <a href="login.html" class="my-3 btn btn-outline-dark w-100 text-start d-flex justify-content-between showloading">
+                <span><i class="bi bi-person"></i> Login</span>
+                <i class="bi bi-chevron-right"></i>
+            </a>
+            <a href="signup.html" class="my-3 btn btn-outline-dark w-100 text-start d-flex justify-content-between showloading">
+                <span><i class="bi bi-person-fill-add"></i> Register</span>
+                <i class="bi bi-chevron-right"></i>
+            </a>
+            <a href="#" class="my-3 btn w-100 text-white text-start d-flex justify-content-between" target="_blank" style="background-color:#1EBEA5">
+                <span><i class="bi bi-whatsapp"></i> Contact On Whatsapp</span>
+                <i class="bi bi-chevron-right"></i>
+            </a>
+            <a href="#" class="my-3 btn w-100 text-white instagram text-start d-flex justify-content-between" target="_blank">
+                <span><i class="bi bi-instagram"></i> Connect On Instagram</span>
+                <i class="bi bi-chevron-right"></i>
+            </a>
+            <div class="d-flex flex-wrap justify-content-center gap-2 text-secondary small" style="opacity:0.8">
+                <a href="terms.html" class="text-decoration-none showloading">Legal Terms</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="navbar m-0 p-0 w-100 d-md-none bottombar" style="position:fixed;bottom:0;z-index:+1">
+        <div class="col-12 col-md-8 col-lg-5 mx-auto border-top shadow" style="background-color:#F1F1F1">
+            <div class="d-flex justify-content-around">
+                <a href="login.html" class="showloading text-decoration-none text-dark text-center d-flex flex-column">
+                    <i class="bi bi-person fs-1"></i>
+                    <small>Login</small>
+                </a>
+                <a href="signup.html" class="showloading text-decoration-none text-dark text-center d-flex flex-column">
+                    <i class="bi bi-person-fill-add fs-1"></i>
+                    <small>SignUp</small>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <main class="col-md-8 col-lg-5 mx-auto" style="position:relative">
+        <div class="bg-white pb-5 px-3">
+            <p class="text-center pt-3 px-2 small">
+                This game involves an element of financial risk and may be addictive. Please play responsibly and at your own risk.
+            </p>
+            <img src="./assets/images/homePage.png" class="w-100" alt="Home Page">
+            <p class="text-center p-3 small">
+                The game involves an element of financial risk and can be addictive. Please play responsibly and at your own risk "Tera Ludo"
+            </p>
+        </div>
+        <div class="position-fixed bottom-0 col-12 col-md-8 col-lg-5 mx-auto d-flex gap-2 px-2 p-3 bg-white footerBottom">
+            <a href="login.html" class="btn btn-lg btn-dark w-100 fw-bold showloading">
+                <i class="bi bi-controller"></i> Play Now
+            </a>
+            <a href="support.html" class="btn btn-lg btn-danger showloading">
+                <i class="bi bi-headset"></i>
+            </a>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
