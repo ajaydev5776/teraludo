@@ -162,9 +162,9 @@ nav.navbar{
     border-bottom: 1px solid #201e1e;
     color: #fff;
 }
-.card .card .card-header{
-    background-color: #3d3d3d;
-    border-color: #3d3d3d;
+.card .card .card-header, .card.bat-card .card-header{
+    background-color: #3d3d3d !important;
+    border-color: #3d3d3d !important;
 }
 .card-body{
     border: 1px solid #f5f5f5;
